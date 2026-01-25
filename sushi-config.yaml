@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.v2.terminology.v291
-canonical: http://terminology.hl7.org/v291
+id: hl7.v2.uv.terminology.v291
+canonical: http://terminology.hl7.org/v2plusvocab
 name: HL7v2TerminologyV291
 title: HL7 v2.9.1 Vocabulary
 description: IG providing the HL7 v2.9.1 vocabulary as FHIR resource instances
@@ -78,6 +78,7 @@ publisher:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Downloads: download.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
