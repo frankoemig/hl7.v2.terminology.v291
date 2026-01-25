@@ -44,10 +44,11 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
+pages:
+  index.md:
+    title: Homepage
+  download.md:
+    title: Downloads
 #   examples.xml:
 #     title: Examples Overview
 #     simpleExamples.xml:
@@ -63,7 +64,9 @@ publisher:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
+parameters:
+  apply-version: false
+  default-version: false
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
