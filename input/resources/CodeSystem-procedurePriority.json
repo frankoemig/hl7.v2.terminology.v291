@@ -1,0 +1,102 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "procedurePriority",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-procedurePriority.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/procedurePriority</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.9.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0418"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/procedurePriority",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.260"
+  } ],
+  "version": "1.1.0",
+  "name": "ProcedurePriority",
+  "title": "Procedure Priority (2.9.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify the significance or priority of a procedure code.  Used in HL7 Version 2 messaging in the PR1 segment.  Note that this is a post-coordinated code system, where additional ordinal priorities are created by incrementing the numericinteger code value as needed.  Only the first 2 ordinal values are predefined in the code system.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "4568",
+    "code": "0",
+    "display": "the admitting procedure",
+    "definition": "the admitting procedure",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "id": "4569",
+    "code": "1",
+    "display": "the primary procedure",
+    "definition": "the primary procedure",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "id": "4570",
+    "code": "2",
+    "display": "for ranked secondary procedures",
+    "definition": "for ranked secondary procedures",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

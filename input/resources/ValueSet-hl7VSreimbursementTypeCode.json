@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSreimbursementTypeCode",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.315"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSreimbursementTypeCode",
+  "title": "Reimbursement Type Code (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that specify the fee schedule reimbursement type applied to a line item.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/reimbursementType",
+      "version": "0"
+    } ]
+  }
+}

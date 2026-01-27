@@ -1,0 +1,126 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cweStatuses",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cweStatuses.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/cweStatuses</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.9.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0353"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/cweStatuses",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.213"
+  } ],
+  "version": "1.0.0",
+  "name": "CweStatuses",
+  "title": "CWE statuses (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of comcepts that represent an exception identifier code; that is, a code that is not defined in the value set (either model or site-extended).  These are occationsally referred to a 'flavors of null' although this set of concepts is specific to the CWE datatype used in HL7 Version 2.x messaging, and the codes may be used in the 'identifier' component of the 'triplets' in that datatype.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "3246",
+    "code": "NA",
+    "display": "Not applicable",
+    "definition": "Not applicable",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3247",
+    "code": "NASK",
+    "display": "Not asked",
+    "definition": "Not asked",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3245",
+    "code": "NAV",
+    "display": "Not available",
+    "definition": "Not available",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3243",
+    "code": "U",
+    "display": "Unknown",
+    "definition": "Unknown",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3244",
+    "code": "UASK",
+    "display": "Asked but Unknown",
+    "definition": "Asked but Unknown",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSauthorizationMode",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.324"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSauthorizationMode",
+  "title": "Authorization Mode (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Concepts of forms of authorization a recorder may receive from the responsible practitioner to create or change an order.  Used in Version 2 messaging for orders in the ORC segment.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/authorizationMode",
+      "version": "0"
+    } ]
+  }
+}

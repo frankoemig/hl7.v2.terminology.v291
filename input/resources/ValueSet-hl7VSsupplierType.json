@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSsupplierType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.467"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSsupplierType",
+  "title": "Supplier Type (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes specifying the type of supplier that will distribute the supply items associated to a contract number.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/supplierType",
+      "version": "0"
+    } ]
+  }
+}

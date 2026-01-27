@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSbloodUnitType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.385"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSbloodUnitType",
+  "title": "Blood Unit Type (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes used to specify the type of blood unit",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/bloodUnitType",
+      "version": "0"
+    } ]
+  }
+}

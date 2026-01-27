@@ -1,0 +1,126 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "diagnosisPriority",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-diagnosisPriority.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/diagnosisPriority</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.9.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0359"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/diagnosisPriority",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.218"
+  } ],
+  "version": "1.0.0",
+  "name": "DiagnosisPriority",
+  "title": "Diagnosis Priority (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts that identify the significance or priority of the diagnosis code.  Note that the codes are numeric, and the number of the code represents the ordinal priority of the associated diagnosis.  Used in the DG1 segment in HL7 Version 2.x messaging. The predefined codes are the most common, and just a starter set, as the codes are an unbounded list; additional ranked procedures may be signified by incrementing the code value as needed.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "fragment",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "id": "3586",
+    "code": "0",
+    "display": "Not included in diagnosis ranking",
+    "definition": "Not included in diagnosis ranking",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3587",
+    "code": "1",
+    "display": "The primary diagnosis",
+    "definition": "The primary diagnosis",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-07-13"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3590",
+    "code": "2",
+    "display": "For  secondary diagnosis",
+    "definition": "For  secondary diagnosis",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-06-10"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "id": "3592",
+    "code": "3",
+    "display": "For tertiary diagnosis",
+    "definition": "For tertiary diagnosis",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-06-10"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.9"
+    } ]
+  }, {
+    "id": "3593",
+    "code": "4",
+    "display": "For quaternary diagnosis",
+    "definition": "For quaternary diagnosis",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-06-10"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.9"
+    } ]
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSassignmentOfBenefits",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.71"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSassignmentOfBenefits",
+  "title": "Assignment of Benefits (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes which indicate whether an insured person agreed to assign the insurance benefits to a healthcare provider.  If so, the insurance will pay the provider directly.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/assignmentOfBenefits",
+      "version": "0"
+    } ]
+  }
+}

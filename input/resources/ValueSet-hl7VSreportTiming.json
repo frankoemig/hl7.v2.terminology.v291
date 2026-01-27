@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSreportTiming",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.145"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSreportTiming",
+  "title": "Report Timing (2.9.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that identify the time span of a report or the reason for a report sent to a regulatory agency.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/reportTiming",
+      "version": "0"
+    } ]
+  }
+}

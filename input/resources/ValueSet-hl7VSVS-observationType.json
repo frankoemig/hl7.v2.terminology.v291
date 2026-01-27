@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSVS-observationType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.460"
+  } ],
+  "version": "1.0.1",
+  "name": "Hl7VSVS-observationType",
+  "title": "Observation Type (2.9.1 - 1.0.1)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that specify types of observations to enable systems to distinguish between observations sent along with an order, versus observations sent as the result to an order.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/observationType",
+      "version": "0"
+    } ]
+  }
+}
