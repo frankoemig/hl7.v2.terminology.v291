@@ -9,8 +9,8 @@ name: HL7v2TerminologyV291
 title: HL7 v2.9.1 Vocabulary
 description: IG providing the HL7 v2.9.1 vocabulary as FHIR resource instances
 status: draft # draft | active | retired | unknown
-version: 0.1.0
-date: 2026-01-27
+version: 0.2.0
+date: 2026-03-11
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build
