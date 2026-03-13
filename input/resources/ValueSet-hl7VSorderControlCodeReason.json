@@ -4,6 +4,9 @@
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.21.472"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0949"
   } ],
   "version": "1.0.0",
   "name": "Hl7VSorderControlCodeReason",
@@ -16,7 +19,7 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodeReason",
-      "version": "0"
+      "version": "1.0.0"
     } ]
   }
 }

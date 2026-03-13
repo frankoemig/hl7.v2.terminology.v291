@@ -19,6 +19,9 @@
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.18.4"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0003"
   } ],
   "version": "1.11.0",
   "name": "Event",
@@ -64,7 +67,7 @@
   }, {
     "extension": [ {
       "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
-      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSmessageStructure"
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSmessageStructure"
     } ],
     "code": "msgstruct",
     "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgstruct",
@@ -73,7 +76,7 @@
   }, {
     "extension": [ {
       "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
-      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSmessageType"
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSmessageType"
     } ],
     "code": "msgtype",
     "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgtype",

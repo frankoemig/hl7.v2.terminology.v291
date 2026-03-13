@@ -4,6 +4,9 @@
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.21.29"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0066"
   } ],
   "version": "2.0.0",
   "name": "Hl7VSemploymentStatus",
@@ -16,7 +19,7 @@
   "compose": {
     "include": [ {
       "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/employmentStatus",
-      "version": "0"
+      "version": "2.0.0"
     } ]
   }
 }
